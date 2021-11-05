@@ -1,0 +1,63 @@
+!! black
+URxvt.color0: #282a2e
+URxvt.color8: #445276
+
+!! red
+URxvt.color1: #a13a42
+URxvt.color9: #ea4f62
+
+!! green
+URxvt.color2: #8c9440
+URxvt.color10: #b5bd68
+
+!! yellow
+URxvt.color3: #de935f
+URxvt.color11: #f0c674
+
+!! blue
+URxvt.color4: #465c84
+URxvt.color12: #9ca0b5
+
+!! purple
+URxvt.color5: #473d4d
+URxvt.color13: #c0999d
+
+!! cyan
+URxvt.color6: #5e8d87
+URxvt.color14: #8abeb7
+
+!! white
+URxvt.color7: #707880
+URxvt.color15: #c5c8c6
+URxvt.background: #282a2e
+URxvt.foreground: #f8f8fa
+
+!! URxvt.background: rgba:4141/4141/4040/fdfd
+
+!!! URxvt Appearance
+URxvt.font: xft:Iosevka:style=Regular:size=8
+URxvt.boldFont: xft:Iosevka-Term:style=Bold:size=8
+URxvt.italicFont: xft:Iosevka-Term:style=Italic:size=8
+URxvt.boldItalicFont: xft:Iosevka-Term:style=Bold Italic:size=8
+URxvt.letterSpace: -1
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 5
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 20048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+URxvt.perl-ext-common: fullscreen,tabbed,resize-font
+URxvt.keysym.F11: perl:fullscreen:switch
+
+!! Xterm appearance
+XTerm.vt100.font: xft:Iosevka:style=Regular:size=8
+XTerm.vt100.boldFont: xft:Iosevka-Term:style=Bold:size=8
+URxvt.vt100.italicFont: xft:Iosevka-Term:style=Italic:size=8
+URxvt.vt100.boldItalicFont: xft:Iosevka-Term:style=Bold Italic:size=8
+
