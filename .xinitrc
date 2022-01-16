@@ -48,4 +48,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-exec startxfce4
+# exec ck-launch-session dbus-launch startplasma-x11
+# exec ck-launch-session dbus-launch startxfce4
+exec ck-launch-session dbus-launch awesome
+
